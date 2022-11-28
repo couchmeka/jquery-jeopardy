@@ -37,23 +37,29 @@ hundred.forEach(item => {
 
         let p = document.querySelector('p')
         p.innerHTML = `Category || ${category}|| Question: ${newQuestion}`
-        question.appendChild(p)
+        
 
         form.addEventListener('submit', (event) => {
 
             event.preventDefault();
+            let newScore = document.querySelector("#score")
+            newScore.style.color = "white"
 
             if(input.value == newAnswer){
 
                console.log('correct')
-               p.innerHTML =` ${newAnswer}`
+               p.innerHTML =`What is ${newAnswer} is correct`
+               score += 100;
+               
             } else {
 
                 console.log('wrong')
                 p.innerHTML = `wrong the answer is what is ${newAnswer}`
+                score = score - 100;
+                
             }
            
-      
+            newScore.innerHTML = score;
           })
         
         }
@@ -96,26 +102,32 @@ twoHundred.forEach(item => {
             console.log(newQuestion)
             console.log(newAnswer)
 
-        let p = document.querySelector('p')
-        p.innerHTML = `Category || ${category}|| Question: ${newQuestion}`
-        question.appendChild(p)
-        
-        form.addEventListener('submit', (event) => {
-
-            event.preventDefault();
-
-            if(input.value == newAnswer){
-
-               console.log('correct')
-               p.innerHTML =`What is ${newAnswer} is correct`
-            } else {
-
-                console.log('wrong')
-                p.innerHTML = `wrong the answer is what is ${newAnswer}`
-            }
-           
-      
-          })
+            let p = document.querySelector('p')
+            p.innerHTML = `Category || ${category}|| Question: ${newQuestion}`
+            
+    
+            form.addEventListener('submit', (event) => {
+    
+                event.preventDefault();
+                let newScore = document.querySelector("#score")
+                newScore.style.color = "white"
+    
+                if(input.value == newAnswer){
+    
+                   console.log('correct')
+                   p.innerHTML =`What is ${newAnswer} is correct`
+                   score += 100;
+                   
+                } else {
+    
+                    console.log('wrong')
+                    p.innerHTML = `wrong the answer is what is ${newAnswer}`
+                    score = score - 100;
+                    
+                }
+               
+                newScore.innerHTML = score;
+              })
 
 
         }
@@ -151,27 +163,32 @@ fourHundred.forEach(item => {
             let category = groupData.$400[Math.ceil(Math.random() * 2000)].category
             console.log(newQuestion)
             console.log(newAnswer)
-
-        p.innerHTML = `Category || ${category}|| Question: ${newQuestion}`
-        p.innerHTML = newQuestion
-        question.appendChild(p)
-
-        form.addEventListener('submit', (event) => {
-
-            event.preventDefault();
-
-            if(input.value == newAnswer){
-
-               console.log('correct')
-               p.innerHTML =` ${newAnswer}`
-            } else {
-
-                console.log('wrong')
-                p.innerHTML = `wrong the answer is what is ${newAnswer}`
-            }
-           
-      
-          })
+            let p = document.querySelector('p')
+            p.innerHTML = `Category || ${category}|| Question: ${newQuestion}`
+            
+    
+            form.addEventListener('submit', (event) => {
+    
+                event.preventDefault();
+                let newScore = document.querySelector("#score")
+                newScore.style.color = "white"
+    
+                if(input.value == newAnswer){
+    
+                   console.log('correct')
+                   p.innerHTML =`What is ${newAnswer} is correct`
+                   score += 100;
+                   
+                } else {
+    
+                    console.log('wrong')
+                    p.innerHTML = `wrong the answer is what is ${newAnswer}`
+                    score = score - 100;
+                    
+                }
+               
+                newScore.innerHTML = score;
+              })
         }
         
         readJeopardyData();
@@ -206,26 +223,32 @@ sixHundred.forEach(item => {
             console.log(newQuestion)
             console.log(newAnswer)
 
-        let p = document.querySelector('p')
-        p.innerHTML = `Category || ${category}|| Question: ${newQuestion}`
-        question.appendChild(p)
-
-        form.addEventListener('submit', (event) => {
-
-            event.preventDefault();
-
-            if(input.value == newAnswer){
-
-               console.log('correct')
-               p.innerHTML =` ${newAnswer}`
-            } else {
-
-                console.log('wrong')
-                p.innerHTML = `wrong the answer is what is ${newAnswer}`
-            }
-           
-      
-          })
+            let p = document.querySelector('p')
+            p.innerHTML = `Category || ${category}|| Question: ${newQuestion}`
+            
+    
+            form.addEventListener('submit', (event) => {
+    
+                event.preventDefault();
+                let newScore = document.querySelector("#score")
+                newScore.style.color = "white"
+    
+                if(input.value == newAnswer){
+    
+                   console.log('correct')
+                   p.innerHTML =`What is ${newAnswer} is correct`
+                   score += 100;
+                   
+                } else {
+    
+                    console.log('wrong')
+                    p.innerHTML = `wrong the answer is what is ${newAnswer}`
+                    score = score - 100;
+                    
+                }
+               
+                newScore.innerHTML = score;
+              })
         }
         
         readJeopardyData();
@@ -260,26 +283,32 @@ eightHundred.forEach(item => {
             console.log(newQuestion)
             console.log(newAnswer)
 
-        let p = document.querySelector('p')
-        p.innerHTML = `Category || ${category}|| Question: ${newQuestion}`
-        question.appendChild(p)
-
-        form.addEventListener('submit', (event) => {
-
-            event.preventDefault();
-
-            if(input.value == newAnswer){
-
-               console.log('correct')
-               p.innerHTML =` ${newAnswer}`
-            } else {
-
-                console.log('wrong')
-                p.innerHTML = `wrong the answer is what is ${newAnswer}`
-            }
-           
-      
-          })
+            let p = document.querySelector('p')
+            p.innerHTML = `Category || ${category}|| Question: ${newQuestion}`
+            
+    
+            form.addEventListener('submit', (event) => {
+    
+                event.preventDefault();
+                let newScore = document.querySelector("#score")
+                newScore.style.color = "white"
+    
+                if(input.value == newAnswer){
+    
+                   console.log('correct')
+                   p.innerHTML =`What is ${newAnswer} is correct`
+                   score += 100;
+                   
+                } else {
+    
+                    console.log('wrong')
+                    p.innerHTML = `wrong the answer is what is ${newAnswer}`
+                    score = score - 100;
+                    
+                }
+               
+                newScore.innerHTML = score;
+              })
         
         }
         
