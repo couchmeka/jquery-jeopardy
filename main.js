@@ -116,13 +116,13 @@ twoHundred.forEach(item => {
     
                    console.log('correct')
                    p.innerHTML =`What is ${newAnswer} is correct`
-                   score += 100;
+                   score += 200;
                    
                 } else {
     
                     console.log('wrong')
                     p.innerHTML = `wrong the answer is what is ${newAnswer}`
-                    score = score - 100;
+                    score = score - 200;
                     
                 }
                
@@ -177,13 +177,13 @@ fourHundred.forEach(item => {
     
                    console.log('correct')
                    p.innerHTML =`What is ${newAnswer} is correct`
-                   score += 100;
+                   score += 400;
                    
                 } else {
     
                     console.log('wrong')
                     p.innerHTML = `wrong the answer is what is ${newAnswer}`
-                    score = score - 100;
+                    score = score - 400;
                     
                 }
                
@@ -237,13 +237,13 @@ sixHundred.forEach(item => {
     
                    console.log('correct')
                    p.innerHTML =`What is ${newAnswer} is correct`
-                   score += 100;
+                   score += 600;
                    
                 } else {
     
                     console.log('wrong')
                     p.innerHTML = `wrong the answer is what is ${newAnswer}`
-                    score = score - 100;
+                    score = score - 600;
                     
                 }
                
@@ -297,13 +297,13 @@ eightHundred.forEach(item => {
     
                    console.log('correct')
                    p.innerHTML =`What is ${newAnswer} is correct`
-                   score += 100;
+                   score += 800;
                    
                 } else {
     
                     console.log('wrong')
                     p.innerHTML = `wrong the answer is what is ${newAnswer}`
-                    score = score - 100;
+                    score = score - 800;
                     
                 }
                
